@@ -20,3 +20,10 @@ The user will then select generate password button again.
 The system will determine a password string based on the criteria the user selected "okay" to.
 
 The randomized unique password will be display in the window.
+
+
+![image](/Assets/passwordScreenshot.png)
+     
+
+
+     
