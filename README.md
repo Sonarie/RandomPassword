@@ -1,48 +1,22 @@
-# 03 JavaScript: Password Generator
+The Generate Password website will give the user a unique password based on their requested criteria
 
-Create an application that generates a random password based on user-selected criteria. The app runs in the browser and features dynamically updated HTML and CSS powered by your JavaScript code. It has a clean and polished user interface and is responsive, which ensures that it adapts to multiple screen sizes.
+Upon opening the website, the user will press the Generate Password button.
 
-If you are unfamiliar with special characters, take a look at some [examples of special characters on the OWASP Foundation website](https://www.owasp.org/index.php/Password_special_characters).
+The user will be welcomed by a message.
 
-## User Story
+After selecting Okay, the user will be asked how many charactors they would like their password to be:
+The password must be between 8 and 128 charactors.
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+If they type a number in the box that is 7 or less, or 129 or more, the user will be prompted to try again.
 
-## Acceptance Criteria
+Once the user has given a number between the requested range, the user will be prompted with the criteria:
+Do they want uppercase letters?
+Do they want lowercase letters?
+Do they want numbers?
+DO they want symbols?
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN prompted for character types to include in the password
-THEN I choose lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+The user will then select generate password button again.
 
-The following image demonstrates the application functionality:
+The system will determine a password string based on the criteria the user selected "okay" to.
 
-![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.](./Assets/03-javascript-homework-demo.png)
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
-- - -
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The randomized unique password will be display in the window.
